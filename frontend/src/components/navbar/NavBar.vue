@@ -1,10 +1,10 @@
-<script setup lang="js">
+<script setup>
 
 import MenuIcon from "@/components/navbar/icons/MenuIcon.vue";
+import SearchIcon from "@/components/navbar/icons/SearchIcon.vue";
 import HomePageIcon from "@/components/navbar/icons/HomePageIcon.vue";
 import FriendIcon from "@/components/navbar/icons/FriendIcon.vue";
 import CreateIcon from "@/components/navbar/icons/CreateIcon.vue";
-import SearchIcon from "@/components/navbar/icons/SearchIcon.vue";
 </script>
 
 <template>
@@ -45,7 +45,7 @@ import SearchIcon from "@/components/navbar/icons/SearchIcon.vue";
           <!-- List item -->
           <li>
             <button class="is-drawer-close:tooltip is-drawer-close:tooltip-right" data-tip="首页">
-              <HomePageIcon />
+              <HomePageIcon/>
               <span class="is-drawer-close:hidden text-base ml-2 whitespace-nowrap">首页</span>
             </button>
           </li>
