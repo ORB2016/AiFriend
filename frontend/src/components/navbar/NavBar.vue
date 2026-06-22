@@ -20,7 +20,7 @@ import CreateIcon from "@/components/navbar/icons/CreateIcon.vue";
           <div class="px-4 font-bold text-xl">AIFriends</div>
         </div>
 
-        <div class="navbar-center w-4/5 max-w-180">
+        <div class="navbar-center w-4/5 max-w-180 flex justify-center">
           <div class="join w-4/5">
             <input class="input join-item rounded-l-full w-4/5" placeholder="搜一下吧"/>
             <button class="btn join-item rounded-r-full gap-0!">
